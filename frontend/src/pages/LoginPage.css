@@ -1,0 +1,95 @@
+.instructor-login-page {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(ellipse at 50% 0%, rgba(56, 189, 248, 0.1), transparent 55%),
+    #0a0c10;
+}
+
+.instructor-login-card {
+  width: min(100%, 410px);
+  display: grid;
+  gap: 16px;
+  padding: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 10px;
+  background: #111923;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.3);
+}
+
+.instructor-login-kicker {
+  margin: 0;
+  color: #67e8f9;
+  font: 10px "Space Mono", Consolas, monospace;
+  letter-spacing: 1px;
+}
+
+.instructor-login-card h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+.instructor-login-description {
+  margin: -8px 0 4px;
+  color: #94a3b8;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.instructor-login-card label {
+  display: grid;
+  gap: 7px;
+  color: #bdc9d6;
+  font-size: 12px;
+}
+
+.instructor-login-card input {
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 5px;
+  outline: 0;
+  color: #e8eaf0;
+  background: #0a1119;
+}
+
+.instructor-login-card input:focus {
+  border-color: #67e8f9;
+}
+
+.instructor-login-card > button[type="submit"] {
+  min-height: 43px;
+  margin-top: 4px;
+  border: 0;
+  border-radius: 5px;
+  color: #062033;
+  background: #67e8f9;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.instructor-login-card > button:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.instructor-login-switch {
+  border: 0;
+  color: #94a3b8;
+  background: transparent;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.instructor-login-switch:hover {
+  color: #67e8f9;
+}
+
+.instructor-login-message {
+  margin: 0;
+  color: #fda4af;
+  font-size: 12px;
+}

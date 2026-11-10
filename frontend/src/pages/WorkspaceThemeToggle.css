@@ -1,0 +1,30 @@
+.workspace-theme-toggle {
+  width: 34px;
+  height: 34px;
+  display: inline-grid;
+  flex: 0 0 auto;
+  place-items: center;
+  padding: 0;
+  border: 1px solid #e1e6ef;
+  border-radius: 7px;
+  color: #65748b;
+  background: #fff;
+  cursor: pointer;
+  transition: color 140ms ease, border-color 140ms ease, background 140ms ease;
+}
+
+.workspace-theme-toggle:hover {
+  color: #5269c9;
+  border-color: #cbd4f4;
+  background: #f5f6ff;
+}
+
+.workspace-theme-toggle:focus-visible {
+  outline: 2px solid #7488e5;
+  outline-offset: 2px;
+}
+
+.workspace-theme-toggle svg {
+  width: 17px;
+  height: 17px;
+}
